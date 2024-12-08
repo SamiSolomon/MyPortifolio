@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <span className="text-[#915eff]">
-              I'm a Full-Stack and Mobile App Develper
+              I am a Full-Stack and Mobile App Developer
             </span>{" "}
             <br /> I design MVP products that focus on functionality, user
             experience, and creating a positive social impact.
