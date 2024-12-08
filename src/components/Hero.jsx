@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi👋, I'm <span className="text-[#915eff]">Yishak</span>
+            Hi👋, I'm <span className="text-[#915eff]">Samuel</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <span className="text-[#915eff]">
-              I'm a Full Stack Mobile App Develper
+              I'm a Full-Stack and Mobile App Develper
             </span>{" "}
             <br /> I design MVP products that focus on functionality, user
             experience, and creating a positive social impact.

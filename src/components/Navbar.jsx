@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants/index";
-import { logo, menu, close } from "../assets";
+import {  menu, close } from "../assets";
+import logo1 from "../assets/logo1.png"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -18,9 +19,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-18px font-bold cursor-pointer">
-            Yishak
+          <img src={logo1} alt="logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer">
+            Samuel
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -37,8 +38,8 @@ const Navbar = () => {
           ))}
           <li>
             <button
-              className="bg-tertiary py-2 px-4 rounded-xl outline-none w-fit text-white shadow-md shadow-primary"
-              onClick={() => window.open("", "_blank")}
+              className="bg-tertiary text-[18px]  px-4 rounded-xl outline-none w-fit text-white shadow-md shadow-primary"
+              onClick={() => window.open("https://drive.google.com/file/d/1HP1mjllTAZ9CwEe8aVTZUYc9hYz4lJgk/view?usp=sharing", "_blank")}
             >
               View Full Resume
             </button>

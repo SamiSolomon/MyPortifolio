@@ -4,14 +4,13 @@ import python from '../assets/tech/python.png'
 import firebase from '../assets/tech/firebase.png'
 import supabase from '../assets/tech/supabase.png'
 import kiyaequb from '../assets/KiyaEqub.jpg'
-import hub from '../assets/hub.png'
-import Spotify from '../assets/spotify.png'
+import next from '../assets/next.png'
+import nuxt from '../assets/nuxt.png'
+import fashion from '../assets/fashion.png'
+import hospital from '../assets/hospital.png'
 
 
 import {
-  
-  mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -20,9 +19,6 @@ import {
   reactjs,
   git,
   figma,
-  starbucks,
-  tesla,
-  shopify,
 } from "../assets";
 
 const technologies = [
@@ -90,16 +86,16 @@ const navLinks = [
 
 const services = [
   {
+    title: "Next Js Developer",
+    icon: next,
+  },
+  {
     title: "Flutter Developer",
     icon: web,
   },
   {
-    title: "FlutterFlow Developer",
-    icon: mobile,
-  },
-  {
-    title: "Firebase Developer",
-    icon: backend,
+    title: "Nuxt Js Developer",
+    icon: nuxt,
   },
   {
     title: "Python Developer",
@@ -111,16 +107,16 @@ const services = [
 
 const experiences = [
   {
-    title: "Flutter Developer",
-    company_name: "A2SV",
-    icon: flutter,
+    title: "Full-Stack  Developer",
+    company_name: "Center Of Biomedical Engineering",
+    icon: next,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2023",
     points: [
-      "Developing a platform for users to rate products in hotels and restaurants, helping others make informed decisions.",
-      "Designing a user-friendly interface to enable easy product rating and review submission.",
-      "Implementing a robust data storage system to store ratings and reviews for future reference by new users.",
-      "Collaborating with the team to ensure the app's accuracy and usability, making it easy for newcomers to find the best products.",
+     "Building a platform for users to find and rate hospital services, helping others choose the best care options.",
+     "Creating a user-friendly interface to simplify the process of providing feedback and submitting reviews on healthcare services.",
+     "Developing a reliable data management system to store reviews and service information for future reference by new patients.",
+     "Working with a team to ensure the platform's accuracy and usability, making it easy for users to locate trusted healthcare providers in their area."
     ],
   },
   {
@@ -137,16 +133,17 @@ const experiences = [
     ],
   },
   {
-    title: "Flutter Developer | UI/UX Designer",
-    company_name: "Kiya Equb",
-    icon: flutter,
+    title: "Nuxt Js Developer ",
+    company_name: "kiya Equib",
+    icon: nuxt,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Designing and developing a user-friendly platform for managing Equb savings groups efficiently.",
-      "Collaborating with users to understand their needs and optimize the app's features for easy Equb management.",
-      "Implementing secure payment and contribution tracking to ensure transparency and reliability.",
-      "Providing real-time notifications and reminders for contributions, payouts, and group updates.",]
+      "Collaborating with stakeholders to understand requirements and optimize the dashboard for efficient financial tracking.",
+      "Implementing secure payment handling and detailed contribution tracking to ensure transparency and trust.",
+      "Integrating real-time notifications and reminders for payments, distributions, and client updates.",
+      "Creating comprehensive reports and analytics to provide insights into collection trends and distribution efficiency."
+    ]
   },
 
 ];
@@ -198,7 +195,7 @@ const projects = [
       },
     ],
     image: kiyaequb,
-    source_code_link: "https://zel-hub7.github.io/DishCatalog-API/dist/",
+    source_code_link: "https://github.com/SamiSolomon/eccomerce_moblie_App",
   },
   {
     name: "Fashion Hub",
@@ -206,7 +203,7 @@ const projects = [
       "An e-commerce app offering a wide range of stylish clothing and accessories. Users can browse the latest trends, add items to their cart, and enjoy a seamless shopping experience for all their fashion needs.",
     tags: [
       {
-        name: "Flutter",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
@@ -218,20 +215,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: hub,
-    source_code_link: "https://github.com/",
+    image: fashion,
+    source_code_link: "https://github.com/SamiSolomon/Dashboard",
   },
   {
-    name: "Spotify Audio streaming",
+    name: "Hospital Information Provider",
     description:
-      "A music streaming app that offers a vast library of songs and playlists. Users can discover new music, create their own playlists, and enjoy high-quality audio streaming for all their favorite tracks.",
+                "A comprehensive platform that provides detailed information about hospitals, including services offered, contact details, and locations. Users can search for hospitals, read reviews, and make informed decisions about their healthcare needs.",
     tags: [
       {
-        name: "Flutter",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
@@ -239,8 +236,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: Spotify,
-    source_code_link: "https://github.com/",
+    image: hospital,
+    source_code_link: "https://github.com/SamiSolomon/ThesisTrial",
   },
   
 ];
